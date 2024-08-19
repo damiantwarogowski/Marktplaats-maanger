@@ -10,7 +10,7 @@ import org.apache.hc.core5.http.io.entity.EntityUtils;
 
 import java.io.IOException;
 
-public class MarktplaatsApiClient {
+public class ApiClient {
     private final String apiUrl = "https://api.marktplaats.nl";  // Przykladowy adres API
     private final String apiKey = "YOUR_API_KEY";  // Tutaj wstaw swój klucz API
     private final Gson gson = new Gson();
